@@ -6,7 +6,7 @@
 #### How to use:
 Execute script from command line interface as:
 - for pixabay.com - python main.py link_to_your_images image_class_name_from_html_source, ex. python main.py https://pixabay.com/pl/photos/search/sky/ photo-result-image
-- for pexels.com - python main.py link_to_your_images image_class_name_from_html_source page_number_to_load, ex. python main.py https://www.pexels.com/pl-pl/szukaj/natura/ 5
+- for pexels.com - python main.py link_to_your_images image_class_name_from_html_source page_number_to_load, ex. python main.py https://www.pexels.com/pl-pl/szukaj/natura/ MediaCard_image__ljFAl 5
 
 Program will open automated web browser controlled by selenium package, load page with images, scroll to the bottom of page to load everything and start downloading content to directories.
 
